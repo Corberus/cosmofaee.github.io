@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>ΔCosmofaee // Jeux</title>
+    <link rel="stylesheet" href="https://dl.dropbox.com/scl/fi/mi7w0owzv7xpyd9xnygi1/stylesheetp.css?rlkey=nwa4g3bfz2ad53qzlbda359nw">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Michroma&family=Tektur:wght@400..900&display=swap" rel="stylesheet">
+    <!-- INSTALLATION DE FONT ICON -->
+    <link href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.0/font/bootstrap-icons.css">
+	<link rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+</head>
+<body>
+    <div class="fond">
+        <div class="titre_accueil"><a href="index.html">Archive_ΔCosmofaee</a></div>
+
+        <div class="hautbas">
+            <span><a href="#top">↑</a></span>
+            <span><a href="#bottom">↓</a></span>
+        </div>
+
+        <!-- Lightbox -->
+                    <div id="lightbox" class="lightbox">
+                        <span class="close"></span>
+                        <img class="lightbox-content" id="lightbox-img">
+                    </div>
+
+        <div class="conteneur">
+            <div class="menu">
+                <span><a href="conceptart.html">Concept Art</a></span>
+                <span><a href="ecriture.html">Écriture</a></span>
+                <span><a href="jeux.html">Jeux</a></span>
+                <span><a href="code.html">Code</a></span>
+            </div>
+
+            <input class="tab-input" type="radio" name="tabs" id="jdr" checked>
+            <input class="tab-input" type="radio" name="tabs" id="renpy">
+
+            <div class="tab-labels">
+                <label for="jdr">Jeu de rôle</label>
+                <label for="renpy">Visual Novel</label>
+            </div>
+
+            <div class="tab-content" id="jdr_content">
+                    <div class="titre">La Légende du héros oublié</div>
+
+                    <div class="jdr_intro">La Légende du Héros Oublié est une campagne de jeu de rôle que j'ai écrite pour un groupe de joueurs avec le système de <u>Donjons & Dragons</u>. J'en ai été le maître de jeu et nous y avons joué sur quelques sessions. Voici la première session :</div>
+
+                    <div class="resume">
+                        <h4>Résumé de la campagne</h4>
+                        Trois héros sont contactés par un de leur vieil ami pour une nouvelle quête. Celle-ci consistait simplement en une escorte vers des ruines. Mais leur client disparaît et les héros se retrouvent mêlés aux plans d'un groupe de cultistes à la recherche d'un artefact qui aurait un pouvoir immense.
+                    </div>
+
+                    <div class="titre">Session 1 : Les Ruines Luméclat</div>
+
+                    <u>Lieu :</u> Eauprofonde<br>
+                    <br>
+                    Les PJs (personnages joueurs) ont reçu une lettre d’une vieille connaissance qui requiert leurs services pour l’escorter jusqu’à son prochain lieu d’étude. Il leur donne rendez-vous à une taverne à Eauprofonde pour faire le point sur la quête.<br>
+                    <br>
+                    <span class="diag"><span class="diag_sym">«</span> Une lettre vous est parvenue de la part d’une vieille connaissance, un certain Osborne Hautecolline. Un vieil halfelin spécialisé dans l’histoire des anciens cultes et qui avait déjà fait appel à vos services par le passé. Dans le courrier, il vous demande de l’escorter jusqu’à son prochain lieu d’étude et vous promet de vous récompenser à la hauteur des difficultés rencontrées sur le chemin. Rien de plus n’est précisé si ce n’est que le premier point de rendez-vous sera à la taverne de La Choppe Pleine à Eauprofonde où vous devrez le retrouver dans une chambre qui sera réservée pour l’occasion.<br>
+                    Que ce soit pour le trésor promis, les connaissances ou simplement par bonté, vous avez accepté de vous y rendre et rejoignez l’endroit prévu. Tout comme la taverne, la chambre est plutôt petite, mal éclairée et émet cette odeur d’humidité qui vous donne l’impression que les murs sont en train de moisir. La poussière n’a pas été fait depuis sûrement des mois voire des années et vous êtes plutôt contents de vous dire que vous n’y dormirez pas.<br>
+                    Pour l’instant, vous seuls êtes présents dans cette pièce lugubre. Osborne ne semble pas encore être arrivé. <span class="diag_sym">»</span></span><br>
+                    <br>
+                    <u>Objets trouvables :</u> Trois sacs de voyage contenant le nécessaire pour faire un campement.<br>
+                    <br>
+                    <span class="diag"><span class="diag_sym">«</span> Finalement, vous entendez la porte s’ouvrir et le vieil Osborne se présente à vos côtés. Il hoche la tête en guise de salutation puis se dirige vers une petite table basse d’où il étale une carte.<br>
+                    <br>
+                    Osborne “- Nous nous rendrons aux Ruines Luméclat. Il y aurait des fresques anciennes encore indéchiffrées et je souhaiterais essayer de les lire. Elles se trouvent dans la forêt à l’est des Montagnes de l’Épée, on empruntera la Grande Route pour les atteindre. Vous m’escorterez surtout pour décourager les bandits qui voudraient nous attaquer sur la route mais je doute sincèrement qu’il y ait beaucoup de dangers jusqu’à notre destination. Si vous n’avez pas de question, nous devrions nous mettre en route sans plus tarder."<span class="diag_sym">»</span></span><br>
+                    <br>
+                    <u>Ce que Osborne sait :</u><br>
+                    - Les ruines ont été abandonné il y a des centaines d’années.<br>
+                    - C’était un temple de prêtres qui se battaient contre les ombres.<br>
+                    - Les fresques sont dans une langue encore non décryptée.<br>
+                    - Ils auront environ 3 jours de voyage.<br>
+                    <br>
+                    <span class="diag"><span class="diag_sym">«</span> Vous vous munissez donc des sacs de voyage mis à votre disposition et vous partez tous ensemble pour la Grande Route à l’est des Montagnes de l’Épée. Après plus d’une journée de voyage, vous n’avez pas pris la peine de vous arrêter à Ralassantar, un village se trouvant sur votre chemin, pressés sous les paroles de Osborne qui semble plus qu’impatient d’arriver à destination.<br>
+                    <br>
+                    Mais la nuit approche et vous êtes bien contraints de vous arrêter pour établir un camp pour vous reposer. <span class="diag_sym">»</span></span><br>
+                    <br>
+                    3 cultistes se cachent dans les fourrés, ils attendent que le groupe s’endorme.<br>
+                    <br>
+                    <span class="diag"><span class="diag_sym">«</span> La journée a été longue et votre voyage ne fait que commencer. Vous vous endormez paisiblement en espérant pouvoir reposer vos jambes avant de devoir reprendre la route. Seulement, des bruits se soulèvent autour de vous et surgissent des fourrés trois individus, cimeterre en main et vêtu de robe identique, prêts à attaquer. <span class="diag_sym">»</span></span><br>
+                    <br>
+                    • <u>Surprendre le groupe :</u> 1d20+1, les PJs doivent faire le résultat ou plus au risque d’être surpris.<br>
+                    • <u>Initiative :</u> 1d20+1 par cultiste.<br>
+                    <br>
+                    <u>Note :</u> S’ils essaient d’interroger l’un d’eux, le cultiste restera silencieux et ne dévoilera aucune information sur leurs intentions initiales.<br>
+                    <br>
+                    <u>S’ils fouillent les corps :</u><br>
+                    • Ils peuvent récupérer : 1- 9 PO | 2- 4 PO | 3- 3 PO<br>
+                    • Jet de religion ou histoire pour avoir accès à des nouvelles infos.<br>
+                    → RÉUSSI (+=10) : <span class="diag"><span class="diag_sym">«</span> En regardant de plus près, la tunique que les individus portent est décorée d’étranges symboles que l’on pourrait trouver dans diverses cultes sombres. Vous n’êtes pas capable d’en comprendre le sens, cependant il est indéniable que ces personnes faisaient partie d’une organisation secrète. <span class="diag_sym">»</span></span><br>
+                    → ÉCHEC (-10) : <span class="diag"><span class="diag_sym">«</span> Rien n’attire votre attention. <span class="diag_sym">»</span></span><br>
+                    <br>
+                    <h4>Le Temple Oublié</h4>
+                    <br>
+                    <span class="sous_titre">ENTRÉE</span><br>
+                    <br>
+                    <span class="diag"><span class="diag_sym">«</span> Vous reprenez donc la route, sur vos gardes pour ne pas vous faire surprendre à nouveau, et marchez encore quelques heures avant d’enfin apercevoir les ruines. Osborne presse alors le pas pour s’en approcher. <span class="diag_sym">»</span></span><br>
+                    <br>
+                    <u>S’ils examinent l’endroit :</u><br>
+                    • Jet de perception pour observer le lieu plus en détail. (S’ils précisent la végétation ou quelque chose dans le genre, avantage à ceux qui ont la maîtrise Nature ou Survie)<br>
+                    → RÉUSSI (+=10) : <span class="diag"><span class="diag_sym">«</span> Lorsque vous examinez la zone, vous remarquez une présence assez abondante de champignons, plus que vous en avez vu sur le chemin. <span class="diag_sym">»</span></span><br>
+                    → ÉCHEC (-10) : <span class="diag"><span class="diag_sym">«</span> Vous ne remarquez rien d’anormal, ces ruines semblent comme les autres. <span class="diag_sym">»</span></span><br>
+                    <br>
+                    <span class="diag"><span class="diag_sym">«</span> Osborne est déjà devant la vieille porte entrouverte et il vous fait signe d’avancer.<br>
+                    <br>
+                    Osborne “- Ne perdons pas plus de temps.” <span class="diag_sym">»</span></span><br>
+                    <br>
+                    <i><u>Note :</u> Il peut y avoir des champignons à l’entrée mais rien d’autre de suspect. Elles semblent être des ruines normales. Les champignons sont communs. Aucun piège.</i><br>
+                    <br>
+                    <span class="sous_titre">SALLE PRINCIPALE</span><br>
+                    <br>
+                    <span class="diag"><span class="diag_sym">«</span> Vous passez donc la porte et descendez les escaliers sombres qui se présentent devant vous en faisant attention à ne pas glisser sur les vieilles pierres moussues. Des torches éteintes décorent les murs pendant votre descente et vos pas résonnent dans cette atmosphère humide.<br>
+                    <br>
+                    Lorsque vous atteignez le bas de l’escalier, l’obscurité se fait plus épaisse et vous entendez au loin la vieille porte de l’entrée se fermer dans un grincement sinistre, vous privant des derniers rayons de lumière.<br>
+                    <br>
+                    L’obscurité ne vous semble pas naturelle, même pour celleux avec la meilleure vision n’ont pas les yeux assez perçants pour voir au travers. <span class="diag_sym">»</span></span><br>
+                    <br>
+                    <i><u>Note :</u> Osborne disparaît. La salle est sous l’effet Ténèbres et il est impossible de le retirer.</i><br>
+                    <br>
+                    <u>S’ils décident de longer le mur de gauche :</u><br>
+                    Ils tomberont sur la porte vers les fresques qui est verrouillée.<br>
+                    • Jet de force (+=18)<br>
+                    <br>
+                    <u>S’ils décident de longer le mur de droite :</u><br>
+                    Ils tomberont sur la porte vers le couloir.<br>
+                    <br>
+                    <span class="sous_titre">COULOIR</span><br>
+                    <br>
+                    <span class="diag"><span class="diag_sym">«</span> Vous entrez dans un couloir un peu sombre mais tout de même éclairé par quelques torches sur les murs. Le sol est couvert de champignons de toutes sortes. Des petits, des grands, des colorés, des ternes... Il y a aussi de la moisissure ici et là et l’odeur d’humidité enveloppe la pièce. <span class="diag_sym">»</span></span><br>
+                    <br>
+                    Les PJs peuvent faire un jet de perception (+=15) ou de nature pour repérer le Criard et la Moisissure violette.<br>
+                    <br>
+                    <span class="diag"><span class="diag_sym">«</span> Lorsque vous avancez, un hurlement assourdissant vous oblige à couvrir vos oreilles au moins quelques instants. En suivant l’origine de ce cri strident, vous remarquez qu’il vient de l’un des champignons et qu’il ne s’arrête toujours pas de hurler. <span class="diag_sym">»</span></span><br>
+                    <br>
+                    <i><u>Note :</u> Ils peuvent ramasser des champignons comestibles.</i><br>
+                    <br>
+                    <span class="sous_titre">CANTINE</span><br>
+                    <br>
+                    <span class="diag"><span class="diag_sym">«</span> Une grande pièce s’ouvre à vous. Des restes de ce qui semblait être un réfectoire avec deux longues tables au centre, maintenant envahi par tout autant de champignons que dans le couloir. L’air est toujours plus humide à mesure que vous avancez et les quelques bougies qui éclairent l’endroit percent difficilement l’obscurité. Dans un des coins, un semblant de cuisine que la poussière a désormais recouvert.<br>
+                    Face à vous se trouve une petite porte, tout comme plus loin à votre gauche, celle-ci à double battants. <span class="diag_sym">»</span></span><br>
+                    <br>
+                    <i><u>Note :</u> Ils ne trouveront rien à part des champignons, de la nourriture moisie et de la poussière.</i><br>
+                    <br>
+                    <span class="sous_titre">CELLIER</span><br>
+                    <br>
+                    <span class="diag"><span class="diag_sym">«</span> Vous pénétrez dans la pièce pour découvrir un cellier. Plusieurs étagères à moitié vides, remplies de vieux sacs de jute et de toiles d’araignée. Ici, moins de champignons poussent, laissant plutôt place à de la végétation qui recouvre presque tout le sol. <span class="diag_sym">»</span></span><br>
+                    <br>
+                    <u>S’ils prennent leurs précautions (avant de trop s’aventurer dans la pièce) :</u><br>
+                    • Jet de perception ou de nature (selon leur demande) pour observer le lieu plus en détail.<br>
+                    → RÉUSSI (perception) (+=16) : <span class="diag"><span class="diag_sym">«</span> En y regardant de plus près, vous remarquez que quelque chose ne va pas et vous avez l’impression d’avoir vu quelque chose bouger dans les hautes herbes. <span class="diag_sym">»</span></span><br>
+                    → RÉUSSI (nature) (+=15) : <span class="diag"><span class="diag_sym">«</span> Vous vous souvenez d’avoir lu quelque chose sur des créatures appréciant l’obscurité et surtout, qui auraient la capacité de se camoufler dans ce genre de fourré. <span class="diag_sym">»</span></span><br>
+                    <br>
+                    <u>S’ils ont déjà rencontré le végépygmée épineux de l’autre pièce :</u><br>
+                    • Jet de perception pour observer le lieu plus en détail.<br>
+                    → RÉUSSI (perception) (+=10) : Indiquez les buissons qui comportent les végépygmées.<br>
+                    <br>
+                    <u>Sinon :</u><br>
+                    • <u>Surprendre le groupe :</u> 1d20+4, les PJs doivent faire le résultat ou plus au risque d’être surpris.<br>
+                    • <u>Initiative :</u> 1d20+2 par végépygmée.<br>
+                    <br>
+                    <span class="diag"><span class="diag_sym">«</span> Des deux côtés de la pièce sortent soudainement deux petites créatures aux attraits plutôt végétalisés, leur corps semblant être fait de moisissure et de champignons avec une peau verdâtre et une odeur similaire à celle de l’un de vos compagnons. Ils pointent leurs frondes dans votre direction, visiblement mécontents de voir des intrus sur leur territoire. <span class="diag_sym">»</span></span><br>
+                    <br>
+                    <u>Trésors :</u> 2 frondes : 1d4 cont, portée 6/36m<br>
+                    <br>
+                    <span class="sous_titre">DORTOIRE</span><br>
+                    <br>
+                    <span class="diag"><span class="diag_sym">«</span> La salle comporte toujours quelques champignons de même que deux tas de fourrés dans des coins opposés. Contre les murs se trouvent cinq lits et des tables de nuit, la pièce étant alors un ancien dortoir. <span class="diag_sym">»</span></span><br>
+                    <br>
+                    <u>S’ils prennent leurs précautions (avant de trop s’aventurer dans la pièce) :</u><br>
+                    • Jet de perception ou de nature (selon leur demande) pour observer le lieu plus en détail.<br>
+                    → RÉUSSI (perception) (+=16) : <span class="diag"><span class="diag_sym">«</span> En y regardant de plus près, vous remarquez que quelque chose ne va pas et vous avez l’impression d’avoir vu quelque chose bouger dans les hautes herbes. <span class="diag_sym">»</span></span><br>
+                    → RÉUSSI (nature) (+=15) : <span class="diag"><span class="diag_sym">«</span> Vous vous souvenez d’avoir lu quelque chose sur des créatures appréciant l’obscurité et surtout, qui auraient la capacité de se camoufler dans ce genre de fourré. <span class="diag_sym">»</span></span><br>
+                    <br>
+                    <u>S’ils ont déjà rencontré les végépygmées de l’autre pièce :</u><br>
+                    • Jet de perception pour observer le lieu plus en détail.<br>
+                    → RÉUSSI (perception) (+=10) : Indiquez le buisson qui comporte le végépygmée épineux.<br>
+                    <br>
+                    <u>Sinon :</u><br>
+                    • <u>Surprendre le groupe :</u> 1d20+4, les PJs doivent faire le résultat ou plus au risque d’être surpris.<br>
+                    • <u>Initiative :</u> 1d20 par végépygmée épineux.<br>
+                    <br>
+                    <span class="diag"><span class="diag_sym">«</span> D’un buisson sort une créature quadrupède faite de moisissure et de champignon. Ses quatre yeux posés sur vous, elle grogne d’un air menaçant avant de vous foncer dessus. <span class="diag_sym">»</span></span><br>
+                    <br>
+                    Il faut qu’ils fouillent la pièce pour trouver la clé de la porte menant aux fresques.<br>
+                    <br>
+                    <u>Trésors :</u> 1 Potion de guérison (2d4 +2)<br>
+                    <br>
+                    <span class="sous_titre">FRESQUES</span><br>
+                    <br>
+                    <span class="diag"><span class="diag_sym">«</span> Vous entrez dans une grande pièce qui vous paraît assez vide. Sur trois des murs se trouvent des fresques et une porte, et sur le quatrième se dressent deux bibliothèques remplies de livres dont certains sont tombés. Même s’il fait plutôt sombre, vous pouvez facilement discerner les éléments de la salle. Un grincement derrière vous s’élève soudainement et le claquement de la porte par laquelle vous êtes entrés résonne alors. <span class="diag_sym">»</span></span><br>
+                    <br>
+                    <u>Par rapport à la porte :</u><br>
+                    La porte ne peut pas être ouverte avant l’accomplissement de l’épreuve.<br>
+                    <span class="diag"><span class="diag_sym">«</span> Un voile violet recouvre la porte dépourvue de poignée. Un sort semble la verrouiller et il vous est impossible de l’ouvrir. <span class="diag_sym">»</span></span><br>
+                    <br>
+                    <u>S’ils décident d’examiner les fresques :</u><br>
+                    <span class="diag"><span class="diag_sym">«</span> Ces illustrations sont effacées à quelques endroits et si la couleur à un peu déteint, on en comprend encore ce qui y est dessiné. Sur chacune d’elles est écrit quelques mots dans une langue inconnue, racontant sûrement les événements exposés.<br>
+                    <br>
+                    La fresque nord représente ce qui vous semble être un chevalier. Il tend son épée face à une armée. Il y a une bougie éteinte aux pieds de l’illustration.<br>
+                    <br>
+                    La fresque est montre le même chevalier, une lumière l’entourant, face à une créature en feu. Il a les genoux à terre et un second personnage se tient un peu derrière lui, tendant sa main en sa direction. Il y a deux bougies à côté.<br>
+                    <br>
+                    Et enfin, la fresque sud illustre à nouveau ce chevalier, son poing sur la hanche et son épée levée, avec une foule autour de lui qui semble l’acclamer. Il y a trois bougies réparties sous la fresque. <span class="diag_sym">»</span></span><br>
+                    <br>
+                    <u>Dans les bibliothèques :</u><br>
+                    <span class="diag"><span class="diag_sym">«</span> Vous remarquez que les bibliothèques ne contiennent que des exemplaires d’un livre en particulier. Il s’agit d’une pièce de théâtre nommée “Le Conte du Chevalier Ardent”. L’intérieur est illisible mais vous pouvez lire sur le résumé :<br>
+                    <br>
+                    “Il fut un jour où un héros vint à bout d’une armée menée par un démon. Il sauva tout le royaume et on chanta dès lors ses exploits. Cette pièce repasse tout ce qu’il a accompli, de sa lutte contre les serviteurs de son ennemi jusqu’à son ultime combat contre le démon.” <span class="diag_sym">»</span></span><br>
+                    <br>
+                    <u>Au bout d’un certain temps ou s’ils interagissent avec la porte ensorcelée :</u><br>
+                    <span class="diag"><span class="diag_sym">«</span> Une porte dissimulée s’ouvre doucement dans des grondements qui soulèvent la poussière. D’elle sort alors un squelette à l’armure rouillée et rongée par le temps dont les os craquent à chaque mouvement. <span class="diag_sym">»</span></span><br>
+                    <br>
+                    <u>Déroulement de l’énigme :</u><br>
+                    Les joueurs doivent rejouer la légende.<br>
+                    Lorsque le squelette apparaît, un PJ doit l’éliminer. (Cela définira le héros.)<br>
+                    Un squelette aux os brûlés par endroit apparaîtra. Le héros doit s’agenouiller et un autre personnage devra reproduire la pose sur la deuxième fresque OU envoyer un sort de protection ou de lumière sur le héros.<br>
+                    Le héros doit poser de façon identique à la troisième fresque pendant que les autres l’acclament.<br>
+                    A chaque réussite, les bougies sous la fresque correspondante s’allument.<br>
+                    En cas d’échec, toutes les bougies s’éteignent et ils devront recommencer.<br>
+                    <br>
+                    Une fois l’épreuve réussie, la porte s’ouvrira.<br>
+                    <br>
+                    <span class="sous_titre">SALLE DE PRIÈRES</span><br>
+                    <br>
+                    <span class="diag"><span class="diag_sym">«</span> Vous entrez dans une grande salle, un long tapis déchiré et sali mène jusqu’à une plateforme plus élevée que le reste où trône en son centre un genre d’autel. Et près de celui-ci, deux créatures se tournent vers vous. La première est petite, pourvue de griffes et à la forme humanoïde, sa peau est en décomposition par endroits et sa bouche s’ouvre dans un cri distordu. La seconde, bien plus imposante, ressemble plus à une boule de graisse d’où l’on distingue vaguement des membres, laisse échapper des gémissements tout aussi dérangeants que l’autre. Un étrange nuage l’entoure dont l’odeur vous fait comprendre qu’il ne s’agit pas d’un simple parfum. Malgré son apparence imposante, la créature ne semble pas avoir tant de difficulté à vous foncer dessus. <span class="diag_sym">»</span></span><br>
+                    <br>
+                    Il s'agit d'un mâne et d'un nupperibo.<br>
+                    <br>
+                    <span class="diag"><span class="diag_sym">«</span> Les corps des monstres se dissipent sous vos yeux dans une fumée noire, ne laissant aucune trace de leur passage. C’est comme s’ils n’avaient jamais été là. <span class="diag_sym">»</span></span><br>
+                    <br>
+                    <u>Quand ils examinent la pièce :</u><br>
+                    <span class="diag"><span class="diag_sym">«</span> Maintenant que le calme est revenu, vous pouvez enfin explorer l’endroit tranquillement. Et quelque chose attire votre attention au fond de la pièce, dans un coin sombre : un corps. <span class="diag_sym">»</span></span><br>
+                    <br>
+                    <span class="diag"><span class="diag_sym">«</span> Étendu sur le ventre, le corps n’est pas très grand et, en vous approchant, vous reconnaissez Osborne. Définitivement mort, il a été lacéré aux vues de ses blessures et à en juger par son état, ça semble dater de plusieurs heures, un ou deux jours, tout au plus. <span class="diag_sym">»</span></span><br>
+                    <br>
+                    <u>Sur le corps de Osborne :</u><br>
+                    <span class="diag"><span class="diag_sym">«</span> En fouillant le corps de Osborne, vous trouvez deux choses qui attirent votre attention. D’abord, un journal à la couverture en cuir, sûrement les notes de ses dernières recherches. Beaucoup de pages sont déchirées, d’autres couvertes d’encre ou encore trop abîmées pour en lire les lignes. Seul deux pages semblent avoir survécues où vous pouvez y lire : “Elles sont de plus en plus fortes, elles ne cessent de chanter les dissonances du chaos, je dois la détruire.”. L’écriture est sales, comme écrit à la hâte et ces quelques mots prennent toute la première page. Sur la seconde, une carte des alentours au nord d’Eauprofonde qui s’étend jusqu’à Padhiver avec une croix dessinée au milieu est dessinée un peu grossièrement.<br>
+                    <br>
+                    Ensuite, vous trouvez une amulette. L’ornement en or est toujours éclatant malgré les traces évidentes laissées par le temps. un bijou que l’on verrait autour du cou d’un noble, une pierre rose aux reflets orangés par endroit est mise en valeur au centre de la pièce entourée par ses branches dorées sortant de quelques cercles. <span class="diag_sym">»</span></span><br>
+                    <br>
+                    <u>S’ils veulent l’examiner :</u><br>
+                    • Jet d’arcane.<br>
+                    → RÉUSSI (+= 12) : <span class="diag"><span class="diag_sym">«</span> Vous ignorez ce que c’est exactement mais vous sentez une aura magique s’en échapper, vous confirmant qu’elle doit être unique. <span class="diag_sym">»</span></span><br>
+                    → RÉUSSITE CRITIQUE : <span class="diag"><span class="diag_sym">«</span> Une aura magique s’échappe de l’amulette mais différemment de si c’était un simple objet magique. De plus, vous avez l’impression que ces reflets orangés apparaissent au rythme d’une respiration. <span class="diag_sym">»</span></span>
+            </div>
+
+            <div class="tab-content" id="renpy_content">
+                    <div class="titre">FEAR</div>
+
+                    <div class="renpy_intro">FEAR est un projet qui m'a permis de toucher un peu à tout : <u>Ren'Py</u> pour en faire un visual novel / point & click, <u>Webtoon</u> pour en faire un webcomic et même un manga.</div>
+
+                    <div class="resume">
+                        <h4>Résumé</h4>
+                        Blake se réveille dans un monde complètement détruit. Mais il n'est pas désert et regorge de monstres effrayants qui cherchent à dévorer quiconque se trouve sur leur chemin. A l'aide d'un groupe de survivants, eux aussi coincés ici, elle doit trouver un moyen de rentrer chez elle.
+                    </div>
+
+                    <div class="resume">
+                        <h4>Concept Arts</h4>
+                        Étant un grand fan de monstres et créatures effrayantes, je m'étais beaucoup intéressé à la création de ce qui seraient le centre des tensions de l'histoire.
+
+                        <div class="grille_concept">
+                            <div class="case_monstre">
+                                <div class="case_img"><img src="https://i59.servimg.com/u/f59/19/69/15/66/le_hur10.jpg" class="zoomable"></div>
+                                <div class="case_info"><span>Hurleur</span><br>
+                                Le Hurleur sert d’alarme aux autres monstres. Il est souvent trouvé dans des groupes d’autres espèces qui, en échange de nourriture, alerte ses congénères en criant si fort qu’il peut être entendu de très loin. Même s’il ne bouge presque pas et qu’il n’est pas agressif en soit (il n’attaquera rien qui passe près de lui), son cri est si puissant qu’il peut endommager les tympans de tout ce qui se trouve à proximité.</div>
+                            </div>
+
+                            <div class="case_monstre">
+                                <div class="case_img"><img src="https://i59.servimg.com/u/f59/19/69/15/66/le_nou10.jpg" class="zoomable"></div>
+                                <div class="case_info"><span>Nourrisson</span><br>
+                                Le Nourrisson est un monstre à l’apparence d’un bébé. Cependant, il ne faut pas se faire berner par son physique car il est parfaitement capable de survivre par lui-même et même d’attaquer violemment. Il est connu pour se déplacer en groupe d’au moins trois individus et passe la plupart de son temps à jouer comme un enfant le ferait. Il est en réalité le plus gros prédateur d’une grande partie des monstres car son jeu préféré est de jouer dans leur cadavre distordu. Alors les humains et autres animaux ne l’intéressent pas vraiment et il ne s’attaque pas à eux. Même s’il lui arrive parfois de jouer avec des humains, il ne faut pas oublier que ce sont eux-mêmes des monstres et qu’au moindre signe de danger, il n’hésitera pas à attaquer.</div>
+                            </div>
+
+                            <div class="case_monstre">
+                                <div class="case_img"><img src="https://i59.servimg.com/u/f59/19/69/15/66/le_cha10.jpg" class="zoomable"></div>
+                                <div class="case_info"><span>Charognard</span><br>
+                                Le Charognard est une bête qui vit en groupe d’au moins quatre individus. Ils préfèrent profiter des proies déjà mortes ou faibles mais peuvent s’en prendre à d’autres s’ils ont trop faim. Dans ce cas, ils se mettent à traquer leur cible sur plusieurs jours jusqu’à ce qu’elle tombe d’épuisement. Cependant, seul, un charognard a tendance à être très craintif et prend en général la fuite si menacé.</div>
+                            </div>
+
+                            <div class="case_monstre">
+                                <div class="case_img"><img src="https://i59.servimg.com/u/f59/19/69/15/66/le_sta10.jpg" class="zoomable"></div>
+                                <div class="case_info"><span>Stalker</span><br>
+                                Le Stalker est une créature qui semble avoir un grand intérêt pour les humains. Il choisit en général le plus nerveux et il se mettra à le suivre partout où il va, caché dans l’ombre. Il ne supporte pas du tout la lumière, sa vision étant faite pour l’obscurité, il évitera les coins éclairés. Il est alors parfois difficile à voir mais on reconnaît toujours le bruit distinctif de ses articulations qui craquent à chaque mouvement. Peu de choses sont connues à son sujet, il n’attaque pas et se contente d’observer, peut-être pour rendre fou son objet d’obsession et lui faire prendre plus de risque.</div>
+                            </div>
+
+                            <div class="case_monstre">
+                                <div class="case_img"><img src="https://i59.servimg.com/u/f59/19/69/15/66/l_zopi10.jpg" class="zoomable"></div>
+                                <div class="case_info"><span>Épineux</span><br>
+                                L'Épineux est un être dénoué d'intelligence et n'agit que par pur instinct. Monstre ou humain, il ne semble pas faire la distinction est s'attaque à tout ce qui se trouve sur son chemin. Il est insasiable, toujours à la recherche de son prochain repas, il a l'air infatiguable.</div>
+                            </div>
+
+                            <div class="case_monstre">
+                                <div class="case_img"><img src="https://i59.servimg.com/u/f59/19/69/15/66/le_pas10.jpg" class="zoomable"></div>
+                                <div class="case_info"><span>Passager</span><br>
+                                C’est lors d’une paralysie du sommeil bien particulière, lorsque la peur crispe tous nos muscles que le Passager se présente. Une silhouette qui nous observe, nous juge. Et si elle pense que nous convenons aux exigences de sa reine, alors elle s’approche. Doucement, son corps se déformant à force d’avancer, jusqu’à ce qu’elle nous atteigne. De là c’est l’écran noir, on se réveille dans l’autre monde.</div>
+                            </div>
+
+                            <div class="case_monstre">
+                                <div class="case_img"><img src="https://i59.servimg.com/u/f59/19/69/15/66/le_fau10.jpg" class="zoomable"></div>
+                                <div class="case_info"><span>Faux-Visage</span><br>
+                                Le Faux-visage est une créature particulièrement dangereuse qui prend l’apparence d’un humain qu’il a vu. Il peut imiter la voix et les tics de langage de la personne imitée mais jamais il ne parviendra à tenir de conversation cohérente. Il reproduit sans comprendre ce qu’il dit, simplement pour attirer les malheureux. Quand la cible est assez proche, il l’attaque pour la dévorer.</div>
+                            </div>
+
+                            <div class="case_monstre">
+                                <div class="case_img"><img src="https://i59.servimg.com/u/f59/19/69/15/66/dzochi10.jpg" class="zoomable"></div>
+                                <div class="case_info"><span>Déchiqueteur</span><br>
+                                Le Déchiqueteur est un prédateur qui tend des embuscades à ses proies. Il apprend les habitudes de sa cible pour préparer son piège et l’attraper sans que sa proie ne s’en rende compte. Son corps désarticulé lui permet de s’accrocher sur n’importe quelle surface et d’y rester sans bouger d’un centimètre.</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="version_ant">
+                        <h4>Version antérieure</h4>
+                        Dans une version antérieure, l'histoire était un peu différente et j'avais longtemps travaillé sur un visual novel / point & click avec le logiciel <u>Ren'Py</u>. Malgré le fait que je ne connaissais rien à la programmation de jeu, j'ai pris le temps d'apprendre, de me documenter et de tester pour faire ce début de jeu.<br>
+                        Cette version de l'histoire était plus tournée dans un style Shonen, avec des pouvoirs et des organisations malveillantes. Idée que j'ai abandonné sur la version actuelle car elle ne correspondait plus à la vision que j'ai de ce projet.<br>
+                        <br>
+                        Dans cette mini démo, on a accès au début de l'histoire avec deux tableaux point & click.<br>
+                        <br>
+                    </div>
+
+                    <div class="fear_img"><img src="https://placehold.co/300x300" class="zoomable"><img src="https://placehold.co/300x300" class="zoomable"><img src="https://placehold.co/300x300" class="zoomable"><img src="https://placehold.co/300x300" class="zoomable"></div>
+
+                    <div class="demo_fear">
+                        <a href="https://dl.dropbox.com/scl/fi/p5azdolu3oa14h16v70ou/FEAR-0.0-pc.zip?rlkey=v9klm119rueswsee974izfpsk">Télécharger la démo (Windows)</a>
+                        <a href="https://dl.dropbox.com/scl/fi/ipo5wecdegjzjr5cvg2vn/FEAR-0.0-mac.zip?rlkey=ip1f0dr5ip1iu987mf3iosheq">Télécharger la démo (Mac)</a>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        //POUR LE ZOOM SUR LES IMAGES
+        const lightbox = document.getElementById("lightbox");
+        const lightboxImg = document.getElementById("lightbox-img");
+        const closeBtn = document.querySelector(".lightbox .close");
+
+        document.querySelectorAll(".zoomable").forEach(img => {
+        img.addEventListener("click", () => {
+            lightbox.style.display = "flex";
+            lightboxImg.src = img.src;
+        });
+        });
+
+        // fermer avec la croix
+        closeBtn.addEventListener("click", () => {
+        lightbox.style.display = "none";
+        });
+
+        // fermer en cliquant à côté
+        lightbox.addEventListener("click", (e) => {
+        if (e.target === lightbox) {
+            lightbox.style.display = "none";
+        }
+        });
+    </script>
+</body>
+<footer>
+    <div class="conteneur_footer" id="bottom">
+        <div class="contact">
+            <span><h4>Contact</h4></span>
+            <span>adrienaxel.feraud@gmail.com</span>
+            <span><img src="https://i59.servimg.com/u/f59/19/69/15/66/17485710.png"><a href="www.linkedin.com/in/adrien-feraud-b58447383" target="_blank"> LinkedIn</a></span>
+            <span><img src="https://i59.servimg.com/u/f59/19/69/15/66/discor10.png"> Cosmofaee</span>
+        </div>
+        <div class="cv">
+            <a href="index.html">CV</a>
+            <span>Site par Adrien Feraud</span>
+        </div>
+    </div>
+</footer>
+</html>

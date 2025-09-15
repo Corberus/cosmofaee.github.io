@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>ΔCosmofaee // Concept Art</title>
+    <link rel="stylesheet" href="https://dl.dropbox.com/scl/fi/mi7w0owzv7xpyd9xnygi1/stylesheetp.css?rlkey=nwa4g3bfz2ad53qzlbda359nw">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Michroma&family=Tektur:wght@400..900&display=swap" rel="stylesheet">
+    <!-- INSTALLATION DE FONT ICON -->
+    <link href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.0/font/bootstrap-icons.css">
+	<link rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+</head>
+<body>
+    <div class="fond">
+        <div class="titre_accueil"><a href="index.html">Archive_ΔCosmofaee</a></div>
+
+        <div class="hautbas">
+            <span><a href="#top">↑</a></span>
+            <span><a href="#bottom">↓</a></span>
+        </div>
+
+        <div class="conteneur">
+            <div class="menu">
+                <span><a href="conceptart.html">Concept Art</a></span>
+                <span><a href="ecriture.html">Écriture</a></span>
+                <span><a href="jeux.html">Jeux</a></span>
+                <span><a href="code.html">Code</a></span>
+            </div>
+
+            <div class="menu_filtres" id="filter-menu">
+                <div class="menu_titre">Filtres</div>
+                <div class="menu_boutons">
+                    <button onclick="filtrer('all')">Afficher tout</button>
+                    <button onclick="filtrer('personnage')">Personnage</button>
+                    <button onclick="filtrer('creature')">Créature</button>
+                    <button onclick="filtrer('decor')">Décor</button>
+                    <button onclick="filtrer('autre')">Autre</button>
+                </div>        
+            </div>
+
+            <div class="liste_crea" id="elements-container">
+                <div class="item personnage">
+                    <span><h2>Bubu et Prince</h2></span>
+                    <span><img src="https://i72.servimg.com/u/f72/20/55/53/24/bubu_110.jpg" class="zoomable"><img src="https://i72.servimg.com/u/f72/20/55/53/24/bubu_210.png" class="zoomable"><img src="https://i72.servimg.com/u/f72/20/55/53/24/prince10.jpg" class="zoomable"><img src="https://i72.servimg.com/u/f72/20/55/53/24/prince10.png" class="zoomable"></span>
+                    <span>Bubu (1) est une fée proche de la nature. Iel a perdu sa famille mais a rencontré Prince (2), qui sont désormais meilleurs amis. Ils parcourent ensemble les royaumes en quête d'aventure.</span>
+                </div>
+
+                <div class="item creature">
+                    <span><h2>Monstres de l'Île aux Lucioles</h2></span>
+                    <span><img src="https://i72.servimg.com/u/f72/20/55/53/24/zocorc16.jpg" class="zoomable"><img src="https://i72.servimg.com/u/f72/20/55/53/24/faux_s16.jpg" class="zoomable"><img src="https://i72.servimg.com/u/f72/20/55/53/24/ours_v13.jpg" class="zoomable"><img src="https://i72.servimg.com/u/f72/20/55/53/24/qherth10.jpg" class="zoomable"></span>
+                </div>
+
+                <div class="item creature">
+                    <span><h2>Monstres de l'Île aux Lucioles</h2></span>
+                    <span><img src="https://i72.servimg.com/u/f72/20/55/53/24/rat_pl16.jpg" class="zoomable"><img src="https://i72.servimg.com/u/f72/20/55/53/24/ver_de13.jpg" class="zoomable"><img src="https://i72.servimg.com/u/f72/20/55/53/24/tigre_10.jpg" class="zoomable"></span>
+                </div>
+
+                <div class="item personnage">
+                    <span><h2>Fursona</h2></span>
+                    <span><img src="https://i59.servimg.com/u/f59/19/69/15/66/furso_11.jpg" class="zoomable"><img src="https://i59.servimg.com/u/f59/19/69/15/66/furso_12.jpg" class="zoomable"><img src="https://i59.servimg.com/u/f59/19/69/15/66/furso_10.jpg" class="zoomable"></span>
+                    <span>Un fursona est un personnage anthropomorphique qui reflète la personnalité de la personne qu'il représente. Le mien se veut cryptique pour ma passion pour le mystère, tout en ayant un côté calme et timide, le regard toujours fuyant.</span>
+                </div>
+
+                <div class="item personnage">
+                    <span><h2>Albedo</h2></span>
+                    <span><img src="https://i72.servimg.com/u/f72/20/55/53/24/albedo12.jpg" class="zoomable"><img src="https://i72.servimg.com/u/f72/20/55/53/24/albedo10.jpg" class="zoomable"><img src="https://i72.servimg.com/u/f72/20/55/53/24/albedo11.jpg" class="zoomable"></span>
+                    <span>Albedo est une jeune fille haute en couleur. Pleine de joie, elle cherche à se lier d'amitié avec tout le monde. Mais très naïve, elle est facilement manipulable et se fait souvent avoir. Elle adore dessiner et la mode est quelque chose qui la passionne particulièrement, surtout le style harajuku / decora.</span>
+                </div>
+
+                <div class="item creature">
+                    <span><h2>Concepts pour FEAR</h2></span>
+                    <span><img src="https://i72.servimg.com/u/f72/20/55/53/24/monstr10.jpg" class="zoomable"><img src="https://i72.servimg.com/u/f72/20/55/53/24/illust10.jpg" class="zoomable"></span>
+                </div>
+
+                <div class="item autre">
+                    <span><h2>Cartes fantaisie</h2></span>
+                    <span><img src="https://i59.servimg.com/u/f59/19/69/15/66/carte_11.jpg" class="zoomable"><img src="https://i59.servimg.com/u/f59/19/69/15/66/carte_10.jpg" class="zoomable"><img src="https://i59.servimg.com/u/f59/19/69/15/66/carte_12.jpg" class="zoomable"><img src="https://i59.servimg.com/u/f59/19/69/15/66/carte_13.jpg" class="zoomable"></span>
+                    <span>Dans un univers que j'ai créé, j'ai dessiné des cartes pour m'aider à visualiser le monde. Étant donné que mes histoires se centraient principalement dans le pays de Maradall, j'ai séparé le pays en des royaumes puis des provinces, en leur attribuant ainsi des bannières pour les représenter. Sont indiquées par des triangles les capitales de chaque royaume.</span>
+                </div>
+
+                <div class="item personnage">
+                    <span><h2>Nathanael</h2></span>
+                    <span><img src="https://i72.servimg.com/u/f72/20/55/53/24/nathan13.jpg" class="zoomable"><img src="https://i72.servimg.com/u/f72/20/55/53/24/nathan11.jpg" class="zoomable"><img src="https://i72.servimg.com/u/f72/20/55/53/24/nathan10.jpg" class="zoomable"><img src="https://i72.servimg.com/u/f72/20/55/53/24/nathan12.jpg" class="zoomable"></span>
+                    <span>Nathanael est un personnage avec beaucoup d'énergie. Du genre à chercher le chaos partout où il va, il n'a pas peur de provoquer plus fort que lui, même s'il finit souvent par en payer les conséquences. Il remet toujours en question l'autorité et n'hésite pas une seconde à dire ce qu'il pense.</span>
+                </div>
+
+                <div class="item creature">
+                    <span><h2>Quelques animaux</h2></span>
+                    <span><img src="https://i59.servimg.com/u/f59/19/69/15/66/les_za10.png" class="zoomable"><img src="https://i59.servimg.com/u/f59/19/69/15/66/mantis10.png" class="zoomable"><img src="https://i59.servimg.com/u/f59/19/69/15/66/minus10.jpg" class="zoomable"><img src="https://i59.servimg.com/u/f59/19/69/15/66/s_auto10.png" class="zoomable"></span>
+                    <span>Des chats pour la majorité, je me plais beaucoup à faire des petits animaux mignons, dans un style simple et coloré.</span>
+                </div>
+
+                <div class="item decor">
+                    <span><h2>Étude de décor en pixel art</h2></span>
+                    <span><img src="https://i59.servimg.com/u/f59/19/69/15/66/pixel_10.jpg" class="zoomable"><img src="https://i59.servimg.com/u/f59/19/69/15/66/pixel_11.jpg" class="zoomable"><img src="https://i59.servimg.com/u/f59/19/69/15/66/an_elf10.jpg" class="zoomable"><img src="https://i59.servimg.com/u/f59/19/69/15/66/neon_t10.jpg" class="zoomable"></span>
+                    <span>J'apprécie beaucoup faire des décors en pixel art. Quelque soit le thème, je trouve que le pixel art apporte beaucoup de liberté dans la conception d'un environnement.</span>
+                </div>
+
+                <div class="item personnage">
+                    <span><h2>Concepts de personnage</h2></span>
+                    <span><img src="https://i72.servimg.com/u/f72/20/55/53/24/taze_110.jpg" class="zoomable"><img src="https://i72.servimg.com/u/f72/20/55/53/24/jupite10.jpg" class="zoomable"><img src="https://i72.servimg.com/u/f72/20/55/53/24/blewi_10.jpg" class="zoomable"><img src="https://i72.servimg.com/u/f72/20/55/53/24/ace10.jpg" class="zoomable"></span>
+                    <span>1- Taze (personnage original de Stray) 2- Jupiter 3- Blewi 4- Ace</span>
+                </div>
+
+                <div class="item personnage">
+                    <span><h2>Concepts de personnage</h2></span>
+                    <span><img src="https://i72.servimg.com/u/f72/20/55/53/24/kinai_10.jpg" class="zoomable"><img src="https://i72.servimg.com/u/f72/20/55/53/24/orochi10.jpg" class="zoomable"><img src="https://i72.servimg.com/u/f72/20/55/53/24/qanshe11.jpg" class="zoomable"><img src="https://i72.servimg.com/u/f72/20/55/53/24/taie_b10.jpg" class="zoomable"></span>
+                    <span>Personnages originaux de My Hero Academia : 1- Kinai 2- Orochi | Personnages de jeux de rôle : 3- Qanshe 4- Taïe Beite</span>
+                </div>
+
+                <div class="item autre">
+                    <span><h2>Illustrations de JDR</h2></span>
+                    <span><img src="https://i72.servimg.com/u/f72/20/55/53/24/fresqu10.jpg" class="zoomable"><img src="https://i72.servimg.com/u/f72/20/55/53/24/viande10.jpg" class="zoomable"><img src="https://i72.servimg.com/u/f72/20/55/53/24/qanshe10.jpg" class="zoomable"></span>
+                    <span>1- Une fresque avec un dessin dessus. Il m'avait été demandé pour illustrer dans un jeu de rôle un mur que les joueurs rencontrent.<br>2- Un plat. Lors d'un passage à la taverne, le MJ avait décrit le plat de purée de pomme de terre avec des tranches de viande.<br>3- Mon personnage à la taverne en train de converser avec les autres personnages.</span>
+                </div>
+
+                <div class="item autre">
+                    <span><h2>Overlay de stream</h2></span>
+                    <span><img src="https://i59.servimg.com/u/f59/19/69/15/66/start10.jpg" class="zoomable"><img src="https://i59.servimg.com/u/f59/19/69/15/66/offlin10.jpg" class="zoomable"><img src="https://i59.servimg.com/u/f59/19/69/15/66/fin10.jpg" class="zoomable"></span>
+                    <span>Pour ma chaîne Twitch, j'ai voulu exploiter le pixel art pour faire des overlays colorés et intéressants.</span>
+                </div>
+
+                <div class="item creature">
+                    <span><h2>Concepts chiens de chasse</h2></span>
+                    <span><img src="https://i72.servimg.com/u/f72/20/55/53/24/nyx10.jpg" class="zoomable"><img src="https://i72.servimg.com/u/f72/20/55/53/24/lux10.jpg" class="zoomable"></span>
+                    <span>Mon objetcif était de faire un animal de compagnie, similaire à un chien, mais qui serait intimidant. Le genre de créature où on se demande si elles peuvent vraiment être dociles et affectives. De quoi faire peur aux passants lorsque leur propriétaire les promèneraient.</span>
+                </div>
+
+                <div class="item personnage">
+                    <span><h2>Quelques dessins en plus</h2></span>
+                    <span><img src="https://i72.servimg.com/u/f72/20/55/53/24/bubu__10.png" class="zoomable"><img src="https://i72.servimg.com/u/f72/20/55/53/24/adrien10.jpg" class="zoomable"><img src="https://i72.servimg.com/u/f72/20/55/53/24/kinai_11.jpg" class="zoomable"><img src="https://i72.servimg.com/u/f72/20/55/53/24/kinai_12.jpg" class="zoomable"></span>
+                    <span><img src="https://i72.servimg.com/u/f72/20/55/53/24/lilo_210.jpg" class="zoomable"><img src="https://i72.servimg.com/u/f72/20/55/53/24/lilo_310.jpg" class="zoomable"><img src="https://i72.servimg.com/u/f72/20/55/53/24/narczy10.png" class="zoomable"><img src="https://i72.servimg.com/u/f72/20/55/53/24/taie_b11.jpg" class="zoomable"></span>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Lightbox -->
+            <div id="lightbox" class="lightbox">
+                <span class="close"></span>
+                <img class="lightbox-content" id="lightbox-img">
+            </div>
+    </div>
+
+    <script>
+
+        // POUR LES FILTRES
+        function filtrer(categorie) {
+        const items = document.querySelectorAll('.liste_crea .item');
+
+        items.forEach(item => {
+            // montrer
+            if (categorie === 'all' || item.classList.contains(categorie)) {
+            item.style.display = "block";
+            requestAnimationFrame(() => { // permet de relancer l'animation
+                item.classList.remove("hidden");
+            });
+            } 
+            // cacher
+            else {
+            item.classList.add("hidden");
+            // attendre la fin de l’animation avant de retirer du flux
+            setTimeout(() => {
+                if (item.classList.contains("hidden")) {
+                item.style.display = "none";
+                }
+            }, 400); // durée = transition CSS
+            }
+        });
+        }
+
+        //POUR LE ZOOM SUR LES IMAGES
+        const lightbox = document.getElementById("lightbox");
+        const lightboxImg = document.getElementById("lightbox-img");
+        const closeBtn = document.querySelector(".lightbox .close");
+
+        document.querySelectorAll(".zoomable").forEach(img => {
+        img.addEventListener("click", () => {
+            lightbox.style.display = "flex";
+            lightboxImg.src = img.src;
+        });
+        });
+
+        // fermer avec la croix
+        closeBtn.addEventListener("click", () => {
+        lightbox.style.display = "none";
+        });
+
+        // fermer en cliquant à côté
+        lightbox.addEventListener("click", (e) => {
+        if (e.target === lightbox) {
+            lightbox.style.display = "none";
+        }
+        });
+</script>
+</body>
+<footer>
+    <div class="conteneur_footer" id="bottom">
+        <div class="contact">
+            <span><h4>Contact</h4></span>
+            <span>adrienaxel.feraud@gmail.com</span>
+            <span><img src="https://i59.servimg.com/u/f59/19/69/15/66/17485710.png"><a href="www.linkedin.com/in/adrien-feraud-b58447383" target="_blank"> LinkedIn</a></span>
+            <span><img src="https://i59.servimg.com/u/f59/19/69/15/66/discor10.png"> Cosmofaee</span>
+        </div>
+        <div class="cv">
+            <a href="index.html">CV</a>
+            <span>Site par Adrien Feraud</span>
+        </div>
+    </div>
+</footer>
+</html>
