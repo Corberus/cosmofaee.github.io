@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>ΔCosmofaee // Accueil</title>
-    <link rel="stylesheet" href="https://cosmofaee.github.io/main/stylesheet.css">
+    <link rel="stylesheet" href="https://dl.dropbox.com/scl/fi/mi7w0owzv7xpyd9xnygi1/stylesheetp.css?rlkey=nwa4g3bfz2ad53qzlbda359nw)">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Michroma&family=Tektur:wght@400..900&display=swap" rel="stylesheet">
